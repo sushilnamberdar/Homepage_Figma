@@ -63,10 +63,10 @@
       height: 20px;
       display: block;
       flex-direction: row;
-      margin-top: 2px;
       padding: 10px;
       font-size: auto;
-      /* background:linear-gradient(90deg, rgb(123, 31, 170)36%, rgba(0, 61, 255, 1)); */
+      margin-top: -5px;
+      
     }
     .navbarlink{
       /* margin-top: 360px; */

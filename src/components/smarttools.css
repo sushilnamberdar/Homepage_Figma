@@ -1,0 +1,55 @@
+.smarttools{
+    
+
+}
+.smarttools h1{
+    font-size: 50px;
+    margin-left: 15%;
+    align-items: flex-start;
+}
+
+.box-container{
+  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 15%;
+    margin-right:35%;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 70px;
+}
+
+.box-items{
+    height: 350px;
+    width: 416px;
+    background: #e3f6ff;
+
+}
+.box-items img{
+    height: 60px;
+    width: 60px;
+}
+.items{
+    margin-left: 45px;
+    margin-top: 50px;
+    display: block;
+    margin-right: 45px;
+    
+}
+.items p{
+    font-weight: bold;
+    font-size:20px;   
+}
+.items >* {
+ margin-top: 20px;
+}
+
+
+@media screen  and (max-width:500px){
+    .box-container{
+        margin-top: 600px;
+        grid-template-columns: auto;
+        margin-left: 1.5%;
+    }
+    
+}
