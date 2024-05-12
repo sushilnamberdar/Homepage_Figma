@@ -7,6 +7,8 @@ import { Markting } from './components/Markting';
 import { Companys } from './components/Companys';
 import { Influencer } from './components/Influencer';
 import { Smartools } from './components/Smartools';
+import { Mainsilider } from './components/Mainsilider';
+import { Footer } from './components/Footer';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
   <Companys/>
   <Influencer/>
   <Smartools/>
+  <Mainsilider/>
+  <Footer/>
   </>
   );
 }

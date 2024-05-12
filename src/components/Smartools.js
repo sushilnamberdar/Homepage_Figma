@@ -19,6 +19,11 @@ export const Smartools = () => {
               <div className='p'>
                 <span>Get Insigts Of Any Influencer Profile Inside Seconds Straight From Your Browswer</span>
               </div>
+              <div className='link'>
+                <a href='#'>
+                  Get Started &#x2192;
+                  </a>
+              </div>
             </div>
           </div>
           <div className='box-items'>
@@ -27,6 +32,11 @@ export const Smartools = () => {
               <p>Campaign Executive</p>
               <div className='p'>
                 <span>Automatic End-To-End Capmaign Execution. Eliminates Inessential Back & Forth And Unumverable Stand Out Sheets </span>
+              </div>
+              <div className='link'>
+                <a href='#'>
+                  Get Started &#x2192;
+                  </a>
               </div>
             </div>
           </div>
@@ -37,6 +47,11 @@ export const Smartools = () => {
               <div className='p'>
                 <span>Enhance Your Business With Our New Age Research Solutions And Seize Opportunities By Acting Resolutely To Promote Modification Through Unjust Insights To Drive Extraordinary Growth</span>
               </div>
+              <div className='link'>
+                <a href='#'>
+                  Get Started &#x2192;
+                  </a>
+              </div>
             </div>
           </div>
           <div className='box-items'>
@@ -46,6 +61,11 @@ export const Smartools = () => {
               <div className='p'>
                 <span>Perceive Insights And Information Of Quite Thousands Of Publishers Across the Social Nedia Platforms </span>
               </div>
+              <div className='link'>
+                <a href='#'>
+                  Get Started &#x2192;
+                  </a>
+              </div>
             </div>
           </div>
           <div className='box-items'>
@@ -54,6 +74,11 @@ export const Smartools = () => {
               <p>Brand Quality & Intelligence</p>
               <div className='p'>
                 <span>Video Promoting With AI-Powered Ingights Provides Valuable Digital Video Insights That Helps Your Brand To Make And Run Booming Campaigns </span>
+              </div>
+              <div className='link'>
+                <a href='#'>
+                  Get Started &#x2192;
+                  </a>
               </div>
             </div>
           </div>

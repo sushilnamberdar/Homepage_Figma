@@ -45,9 +45,41 @@
 }
 
 
+
+@media screen  and (max-width:1000px){
+    .box-container{
+        margin-top: 100px;
+        grid-template-columns: auto auto;
+        margin-left: 1.5%;
+    }
+    
+}
+.link{
+    display: none;
+    font-weight: bold;
+    color: #01b9f5;
+}
+.box-items:hover .link{
+    display: block;
+    transition-delay: 0.6s;
+}
+.link a{
+    color: #01b9f5;
+    text-decoration: none;
+}
+@media screen  and (max-width:1324px){
+    .box-container{
+        margin-top: 100px;
+        
+        grid-template-columns: auto auto;
+        margin-left: 15%;
+    }
+    
+}
 @media screen  and (max-width:500px){
     .box-container{
         margin-top: 600px;
+        display: grid;
         grid-template-columns: auto;
         margin-left: 1.5%;
     }

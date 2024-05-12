@@ -1,0 +1,152 @@
+.footer{
+    margin-top: 390px;
+    background: black;
+    height: 498px;
+    color: white;
+    display: grid;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer-home{
+    margin-right:5%;
+    margin-left: 15%;
+
+    width: 150px;
+}
+.footer-home >*{
+    margin-top: 30px;
+}
+
+
+.footer-home a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.footer-Creator {
+    margin-right: 5%;
+    width: 150px;
+}
+.footer-Creator >*{
+
+    margin-top: 30px;
+}
+.footer-contact >*{
+    margin-top: 30px;
+}
+.footer-info >*{
+    margin-top: 30px;
+}
+.footer-Creator a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.footer-info a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.footer-contact a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.footer-contact{
+    margin-left: 5%;
+    margin-right: 13%;
+}
+
+.hr hr{
+    border-bottom:none;
+    border-right:none;
+    border-left: none;
+    margin-left: 22%;
+    margin-right: 20%;
+    display: grid;
+}
+
+.copyright-social-medial-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+.copyright-social-medial-logo img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+@media screen  and (max-width:1350px){
+    .hr hr{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+}
+
+@media screen  and (max-width:850px){
+    .hr hr{
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+    .footer {
+        height: 750px;
+    }
+    .footer-links{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .footer-Creator{
+        margin-left:35%;
+    }
+    .footer-contact{
+        margin-left: 35%;
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen  and (max-width:500px){
+    .hr hr{
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+    .footer {
+        height: 1150px;
+    }
+    .footer-links{
+        display: grid;
+        grid-template-columns:auto;
+    }
+    .footer-Creator{
+        margin-top: 30px;
+        margin-left:15%;
+    }
+    .footer-contact{
+        margin-left: 15%;
+        margin-bottom: 20px;
+    }
+    .footer-info{
+        margin-left: 15%;
+    }
+    .copyright-social-medial-logo{
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+}
+.footer-home a:hover{
+    text-decoration:underline;
+}
+.footer-Creator a:hover{
+    text-decoration:underline;
+}
+.footer-info a:hover{
+    text-decoration:underline;
+}
+.footer-contact a:hover{
+    text-decoration:underline;
+}
