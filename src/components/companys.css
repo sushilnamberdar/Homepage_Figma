@@ -27,7 +27,10 @@
     gap: 15px;
 
 }
-
+.image img{
+    max-width: 100%;
+    height: auto;
+}
 .image {
     height: 70px;
     display: flex;

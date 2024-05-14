@@ -26,7 +26,6 @@ export const Mainsilider = () => {
                   <img src={youtube} />
                 </a>
                 <span>1.4m</span>
-
               </div>
             </div>
           </div>
