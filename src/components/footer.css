@@ -1,7 +1,7 @@
 .footer{
     margin-top: 390px;
     background: black;
-    height: 498px;
+    height: 300px;
     color: white;
     display: grid;
 }
@@ -27,14 +27,13 @@
     border-bottom:none;
     border-right:none;
     border-left: none;
-    margin-left: 22%;
-    margin-right: 20%;
     display: grid;
 }
 
 .copyright-social-medial-logo {
     display: flex;
     justify-content: space-between;
+    margin-bottom: -16px;
     margin-left: 22%;
     margin-right: 20%;
 }
