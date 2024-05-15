@@ -88,6 +88,6 @@ export const footerdata = [
         {text:"306,Ram Mander Rd, South Extension,"},
         {text:"Block A, New Delhi 110049"},
         {text:"Info@Wingsup.Media"},
-        {text:"890166666"}
+        {text:"8901966666"}
     ]}
 ];

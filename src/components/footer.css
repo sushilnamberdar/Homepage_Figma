@@ -1,7 +1,7 @@
 .footer{
     margin-top: 390px;
     background: black;
-    height: 300px;
+    height: 400px;
     color: white;
     display: grid;
 }
@@ -13,9 +13,11 @@
 .links >*{
     margin-top: 30px;
 }
-
+.linksa >*{
+    margin-top: 30px;
+}
 .linksa a {
-    display: block !important;
+    display: block;
     margin-bottom: 5px;
 }
 .links a{
@@ -85,12 +87,5 @@
 .links a:hover{
     text-decoration:underline;
 }
-.footer-Creator a:hover{
-    text-decoration:underline;
-}
-.footer-info a:hover{
-    text-decoration:underline;
-}
-.footer-contact a:hover{
-    text-decoration:underline;
-}
+
+
