@@ -7,21 +7,15 @@
 }
 .footer-links{
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
+    justify-content: space-evenly;
 }
-.footer-home{
-    margin-right:5%;
-    margin-left: 15%;
 
-    width: 150px;
-}
-.footer-home >*{
+.links >*{
     margin-top: 30px;
 }
 
 
-.footer-home a{
+.links a{
     display: block;
     color: white;
     text-decoration: none;
@@ -139,7 +133,7 @@
         margin-right: 20%;
     }
 }
-.footer-home a:hover{
+.links a:hover{
     text-decoration:underline;
 }
 .footer-Creator a:hover{
