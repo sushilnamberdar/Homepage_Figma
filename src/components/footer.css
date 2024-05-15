@@ -14,46 +14,15 @@
     margin-top: 30px;
 }
 
-
+.linksa a {
+    display: block !important;
+    margin-bottom: 5px;
+}
 .links a{
     display: block;
     color: white;
     text-decoration: none;
 }
-.footer-Creator {
-    margin-right: 5%;
-    width: 150px;
-}
-.footer-Creator >*{
-
-    margin-top: 30px;
-}
-.footer-contact >*{
-    margin-top: 30px;
-}
-.footer-info >*{
-    margin-top: 30px;
-}
-.footer-Creator a{
-    text-decoration: none;
-    display: block;
-    color: white;
-}
-.footer-info a{
-    text-decoration: none;
-    display: block;
-    color: white;
-}
-.footer-contact a{
-    text-decoration: none;
-    display: block;
-    color: white;
-}
-.footer-contact{
-    margin-left: 5%;
-    margin-right: 13%;
-}
-
 .hr hr{
     border-bottom:none;
     border-right:none;
@@ -79,8 +48,7 @@
     .hr hr{
         margin-left: 10%;
         margin-right: 10%;
-    }
-    
+    }   
 }
 
 @media screen  and (max-width:850px){
@@ -94,15 +62,7 @@
     .footer-links{
         display: grid;
         grid-template-columns: auto auto;
-    }
-    .footer-Creator{
-        margin-left:35%;
-    }
-    .footer-contact{
-        margin-left: 35%;
-        margin-bottom: 10px;
-    }
-    
+    } 
 }
 @media screen  and (max-width:500px){
     .hr hr{
@@ -116,17 +76,7 @@
         display: grid;
         grid-template-columns:auto;
     }
-    .footer-Creator{
-        margin-top: 30px;
-        margin-left:15%;
-    }
-    .footer-contact{
-        margin-left: 15%;
-        margin-bottom: 20px;
-    }
-    .footer-info{
-        margin-left: 15%;
-    }
+    
     .copyright-social-medial-logo{
         margin-top: -70px;
         margin-left: 10%;
